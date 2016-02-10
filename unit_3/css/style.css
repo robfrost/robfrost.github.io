@@ -14,8 +14,9 @@ text-align: center;
 font-style: italic;
 }
 
-ul {color: white;
+ul {text-align: center;
+	list-style-type: none;
+	color: white;
 font-family: verdana, sans-serif;
-font-size: 16pt
-text-: center;
+font-size: 14pt
 }
