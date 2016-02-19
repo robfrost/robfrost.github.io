@@ -1,22 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
 body {
 	background-color: #336699;
 }
 
 h1 {color: white;
-font-family: verdana, sans-serif;
-font-size: 20pt;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 24pt;
+font-weight: 600pt;
 text-align: center;}
 
 p {color: white;
-	font-family: verdana, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 font-size: 18pt;
+font-weight: 400pt;
 text-align: center;
+line-height: 14pt;
 font-style: italic;
 }
 
 ul {text-align: center;
 	list-style-type: none;
 	color: white;
-font-family: verdana, sans-serif;
-font-size: 14pt
+font-family: 'Merriweather', serif;
+font-size: 12pt
 }
