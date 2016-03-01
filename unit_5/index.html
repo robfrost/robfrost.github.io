@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head> 
+<title>Wurkn</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<h1>Wurkn</h1>
+<p>Validate your work!</p>
+<center> <img src="images/wurkn_1.jpg"> </center>
+
+<p>You've done some amazing things in your life with some incredible people.</>
+
+<p>Show what you've done and who you've done it with to prospective employers!</p>
+
+<ul style="list-style-type:none">
+
+<li>Who did you do it with?</li>
+<li>What did you do?</li>
+<li>When did you do it?</li>
+<li>Where did you do it?</li>
+<li>Why did you do it?</li>
+
+</ul>
+
+<a href="mailto:frostfrost@gmail.com">Contact me</a>
+
+ <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['timeline']});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var container = document.getElementById('timeline');
+        var chart = new google.visualization.Timeline(container);
+        var dataTable = new google.visualization.DataTable();
+
+ dataTable.addColumn({ type: 'string', id: 'Term' });
+    dataTable.addColumn({ type: 'string', id: 'Name' });
+    dataTable.addColumn({ type: 'date', id: 'Start' });
+    dataTable.addColumn({ type: 'date', id: 'End' });
+        dataTable.addRows([
+          [ '1','Chemistry', new Date(2001, 3, 30), new Date(2002, 2, 20) ],
+          [ '2','History',      new Date(2001, 3, 30),  new Date(2002, 4, 14) ],
+          [ '3','Latin',  new Date(2001, 3, 30),  new Date(2002, 8, 4) ]]);
+
+
+        chart.draw(dataTable);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="timeline" style="height: 280px;"></div>
+
+</body>
+</html>

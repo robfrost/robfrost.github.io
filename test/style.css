@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+body {
+	background-color: #336699;
+}
+
+
+.top-head {
+  background-color: #efefef;
+  position: relative;
+  width: 100%;
+  padding-top: 80px; 
+  overflow:hidden;
+  height:auto !important;
+   }
+
+.top-head-video {
+    display:block;
+    width:100%;
+    height:auto;
+    position:absolute;
+    padding:center;
+    top:100%;
+    transform:translateY(-50%);
+
+
+    pointer-events: none;
+
+  }
+
+h1 {color: white;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 24pt;
+font-weight: 600pt;
+letter-spacing: 4pt;
+text-align: center;}
+
+p {color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+font-size: 18pt;
+font-weight: 400pt;
+text-align: center;
+line-height: 14pt;
+font-style: italic;
+}
+
+ul {text-align: center;
+	list-style-type: none;
+	color: white;
+font-family: 'Merriweather', serif;
+font-size: 12pt
+}
