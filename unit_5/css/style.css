@@ -26,3 +26,30 @@ ul {text-align: center;
 font-family: 'Merriweather', serif;
 font-size: 12pt
 }
+
+.top-head-video {
+    display:block;
+    width:40%;
+    height:center;
+    position:center;
+    padding:center;
+    top:80%;
+    transform:translateY(0%);
+    pointer-events: none;
+}
+
+header {
+    background-color: #ffed74
+}
+
+div, section {
+    background-color: #FFE2B8
+}
+
+footer {
+    background-color: #FF957E
+}
+
+article {
+    background-color: #E89C6C
+}
